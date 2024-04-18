@@ -1,8 +1,8 @@
 # Welcome to My Portfolio
+## Learn About My Projects
 
 ---
 
-## Learn About My Projects
 
 ## [Electric Vehicle Sales Project](https://www.linkedin.com/pulse/exploring-impact-range-fast-charging-ev-sales-data-analytics-danny-uua3c/)
 [<img src="images/EV project title.png?raw=true"/>](https://www.linkedin.com/pulse/exploring-impact-range-fast-charging-ev-sales-data-analytics-danny-uua3c/)
