@@ -1,1 +1,21 @@
+---
+# Only the main SCSS file needs front matter (the dashes are required)
+---
+
+@import "minima";
+
+.wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content {
+  max-width: 100%;
+}
+
+.tableauViz {
+  width: 100%;
+  height: 500px; /* Adjust the height to fit your content */
+}
 
