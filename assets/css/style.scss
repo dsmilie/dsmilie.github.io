@@ -2,12 +2,15 @@
 ---
 
 .wrapper {
-  max-width: 100%;
+  max-width: 1200px; /* This will set the content to not exceed 1200px in width */
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px; /* This adds some space on the left */
+  padding-right: 15px; /* This adds some space on the right */
 }
 
 .tableauViz {
   width: 100%;
-  height: 500px; /* Adjust the height to fit your content */
+  height: auto; /* This will maintain the aspect ratio of the embedded content */
+  max-height: 500px; /* You can set a maximum height if desired */
 }
