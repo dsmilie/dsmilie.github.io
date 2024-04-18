@@ -4,9 +4,14 @@
 
 ### Learn About My Projects
 
-#### [Internal Blog Post Project](/bank)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-Tolulope is the best
+#### [External Link Project](https://www.linkedin.com/pulse/exploring-impact-range-fast-charging-ev-sales-data-analytics-danny-uua3c/)
+[<img src="images/EV project title.png?raw=true"/>](https://www.linkedin.com/pulse/exploring-impact-range-fast-charging-ev-sales-data-analytics-danny-uua3c/)
+In this project I analyzed the effects that a longer range battery and public fast charging have on EV sales in California. In this project I used:
+
+ - **SQL** for joining, filtering, and grouping data
+ - **BigQuery** for creating tables and views
+ - **Tableau** for visualizing the data
+ - **Excel** for exploratory analysis, pivot tables, and cleaning data 
 
 ---
 #### [Linked File Project](/files/Day 12 - 21 days to data.pdf)
@@ -14,10 +19,10 @@ Tolulope is the best
 For this project, I explored what a good analytics PowerPoint presentation should entail. It talks about main talking points, how to tie data to the business value, and much more. 
 
 ---
-#### [External Link Project](https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith)
-[<img src="images/21 Days To Data Challenge What I've Learned Cover.png?raw=true"/>](https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith)
-My final write up for Avery Smith's 21 Days To Data project covering New York City crime data. 
 
+#### [Internal Blog Post Project](/bank)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Tolulope is the best
 
 ---
 #### [Education Project](https://www.linkedin.com/pulse/massachusetts-education-analysis-samantha-paul/)
