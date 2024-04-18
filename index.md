@@ -4,7 +4,7 @@
 
 ### Learn About My Projects
 
-#### [Electric Vehicle Sales Project(https://www.linkedin.com/pulse/exploring-impact-range-fast-charging-ev-sales-data-analytics-danny-uua3c/)
+#### [Electric Vehicle Sales Project](https://www.linkedin.com/pulse/exploring-impact-range-fast-charging-ev-sales-data-analytics-danny-uua3c/)
 [<img src="images/EV project title.png?raw=true"/>](https://www.linkedin.com/pulse/exploring-impact-range-fast-charging-ev-sales-data-analytics-danny-uua3c/)
 In this project I analyzed the effects that a longer range battery and public fast charging have on EV sales in California. In this project I used:
 
