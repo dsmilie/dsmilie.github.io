@@ -1,7 +1,11 @@
-# Welcome to My Portfolio
-## Learn About My Projects
-
----
+<div class="profile-layout">
+  <div class="profile-picture">
+    <img src="images/GitHub Pages profile picture.png" alt="Profile Picture" />
+  </div>
+  <div class="profile-content">
+    # Welcome to My Portfolio
+    ## Learn About My Projects
+    <---
 
 
 ## [Electric Vehicle Sales Project](https://www.linkedin.com/pulse/exploring-impact-range-fast-charging-ev-sales-data-analytics-danny-uua3c/)
@@ -88,4 +92,6 @@ What are the top math schools in the state?
 
 
 
+  </div>
+</div>
 
