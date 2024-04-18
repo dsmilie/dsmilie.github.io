@@ -1,16 +1,21 @@
 ---
+# Only the main SCSS file needs front matter (the dashes are required)
 ---
 
 .wrapper {
-  max-width: 1200px; /* This will set the content to not exceed 1200px in width */
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px; /* This adds some space on the left */
-  padding-right: 15px; /* This adds some space on the right */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .tableauViz {
   width: 100%;
-  height: auto; /* This will maintain the aspect ratio of the embedded content */
-  max-height: 500px; /* You can set a maximum height if desired */
+  max-width: 1000px; /* Set the maximum width for the Tableau viz */
+  height: auto; /* This will maintain the aspect ratio */
+  max-height: 600px; /* Set a max-height if you desire */
+  margin-left: auto;
+  margin-right: auto;
+  display: block; /* This centers the iframe in its container */
 }
