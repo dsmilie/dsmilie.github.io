@@ -15,7 +15,7 @@ In this project I analyzed the effects that a longer range battery and public fa
 
 ---
 
-## [Massachusetts Department of Education Project](https://public.tableau.com/app/profile/daniel.smilie/viz/AnalysisofMassDepartmentofEducation/Dashboard1)
+## [Massachusetts Department of Education Tableau Project](https://public.tableau.com/app/profile/daniel.smilie/viz/AnalysisofMassDepartmentofEducation/Dashboard1)
 [<img src="images/Analysis of Mass Department of Education.png?raw=true"/>](https://public.tableau.com/app/profile/daniel.smilie/viz/AnalysisofMassDepartmentofEducation/Dashboard1)
 In analysis of the Massachusetts Department of Education, I used visualizations in Tableau to answer these questions and [posted about it here](https://www.linkedin.com/posts/danny-smilie_in-spendingmore-time-learning-tableau-sql-activity-7184325766027907072-HupF?utm_source=share&utm_medium=member_desktop).
  - Which schools are struggling?
@@ -24,7 +24,7 @@ In analysis of the Massachusetts Department of Education, I used visualizations 
 
 ---
 
-## [World Bank Project](/worldbankproject)
+## [World Bank SQL Project](/worldbankproject)
 <img src="images/WorldBankLogo.jpeg?raw=true"/>
 In this project I used aggregate functions and CTEs in SQL to take snapshots in time of the amount of money different countries owe to the IDA. I used this method to show how I would do the following: 
  - Highlight trends in financial data over time
