@@ -28,4 +28,4 @@ In analysis of the Massachusetts Department of Education, I used visualizations 
 <img src="images/WorldBankLogo.jpeg?raw=true"/>
 In this project I used aggregate functions and CTEs in SQL to take snapshots in time of the amount of money different countries owe to the IDA. I used this method to show how I would do the following: 
  - Highlight trends in financial data over time
- - Work with data where each record is repeated every month, but with updated values (i.e. same loan as last month, but is now repaid) 
+ - Extract insights from data where each record is repeated every month, but with updated values (i.e. same loan as last month, but is now repaid) 
