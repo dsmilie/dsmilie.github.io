@@ -8,7 +8,7 @@ In this project, I utilized SQL to structure data in a way that allowed me to lo
 * The top 3 countries by the amount owed to the IDA, Bangladesh, Pakistan, and India, share borders (and were all part of the British Raj)
 * The amount that Tanzania owes to the IDA has increased by nearly $1.8 billion dollars in the past year
 
-Below is the analysis I did to understand how the data was structured, what SQL to use to filter and group the data, and how I used subqueries to calculate year-over-year differences in different loan-related metrics. 
+Below is the analysis I did to understand how the data was structured, what SQL to use to filter and group the data, and how I used CTEs to calculate year-over-year differences in different loan-related metrics. 
 
 ### Data Exploration:
 Initially, I executed a basic SELECT * query to understand the structure of the data, where I found that each row represented various amounts associated with a loan (borrowed, repaid, owed, etc.) for a specific project on a given date. In order to ensure I was using the most recent data, I filtered the End_of_Period field to the latest date using the following SQL statement:
@@ -165,7 +165,7 @@ SELECT
     Data_2023.Due_3rd_Party_Total_2023,
     Data_2023.Credits_Held_Total_2023
 FROM Data_2024 
-JOIN Data_2023 ON Data_2024.Country_2024=Data_2023.Country_2023 ---------- Joining subqueries 
+JOIN Data_2023 ON Data_2024.Country_2024=Data_2023.Country_2023 ---------- Joining different snapshots in time on country 
 ORDER BY Due_to_IDA_Difference DESC ---------- Ordering by the difference in money owed to the IDA from one year to the next
 ```
 Result, with some columns and middle rows removed, and put into Excel with a color scale: ![image](https://github.com/dsmilie/dsmilie.github.io/assets/153857210/b73bbcb5-175b-46ce-bf8e-8bad10ba34ab)
@@ -175,7 +175,7 @@ Result, with some columns and middle rows removed, and put into Excel with a col
 The SQL above was how I was able to highlight that  Tanzania, Nigeria, and Pakistan have been loaned the most money from the IDA in the past year, and how  India, Indonesia, and China have repaid their debt to the IDA over the past year. 
 
 ## Takeaway:
-When using data where each row is a snapshot in time, in this case a snapshot of where all loans stand, a CTE or subquery made breaking up these loans by snapshot much easier to understand. Grouping the data appropriately then using a LAG function to calculate the different between one row and the next would have been another option, but seeing the two snapshots in time broken out into separate CTEs made it very clear to understand. 
+When using data where each row is a snapshot in time, in this case a snapshot of where all loans stand, a CTE made breaking up these loans by snapshot much easier to understand. Grouping the data appropriately then using a LAG function to calculate the different between one row and the next would have been another option, but seeing the two snapshots in time broken out into separate CTEs made it very clear to understand. 
 
 This was fun project and good exercise in using SQL to filter, group, and calculate financial data. 
 
